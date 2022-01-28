@@ -1,0 +1,35 @@
+:root {
+  --parade-background-color: #481D24;
+}
+
+.zoo-parade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 33vh;
+  background-color: var(--parade-background-color);
+  color: white;
+}
+
+.parade {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parade-animals {
+  font-size: 3rem;
+}
+
+.parade-animals span {
+  margin-right: 1rem;
+}
+
+.parade-buttons {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}

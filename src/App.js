@@ -22,6 +22,7 @@ function App() {
         <OpenSign isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
       <div className='zoo-parade'>
+        <h1>Watch the parade!</h1>
         <Parade paradeArr={paradeArr} setParade={setParade}/>
       </div>
       <div className='zoo-fight'>

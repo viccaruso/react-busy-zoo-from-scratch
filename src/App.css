@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.zoo-open, .zoo-parade, .zoo-fight {
+.zoo-parade, .zoo-fight {
   display: flex;
   flex-direction: row;
   justify-content: center;

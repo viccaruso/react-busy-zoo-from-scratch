@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+:root {
+  --text-color: #f00;
+  --border-color: #3da7f8;
+  --text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px var(--text-color),
+  0 0 10px var(--text-color), 0 0 10px var(--text-color),
+  0 0 10px var(--text-color), 0 0 10px var(--text-color),
+  0 0 20px var(--text-color), 0 0 30px var(--text-color),
+  0 0 40px var(--text-color), 0 0 55px var(--text-color),
+  0 0 75px var(--text-color);
+  --box-shadow: inset 0 0 50px var(--border-color), 0 0 10px var(--border-color),
+  0 0 20px var(--border-color), 0 0 30px var(--border-color);
+}
+
+.zoo-open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+  background: #00061c;
+  color: white;
+}
+
+.sign-div {
+  background-color: transparent;
+  border: 3px solid white;
+  text-shadow: var(--text-shadow);
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  padding: 14px 24px;
+  transform: rotate(-4deg);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sign-div p {
+  font-family: Roboto;
+  margin: 0px;
+  color: #fff;
+  font-size: 100px;
+}
+

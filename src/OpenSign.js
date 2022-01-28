@@ -6,30 +6,18 @@ export default function OpenSign({ isOpen, setIsOpen }) {
     return (
       <>
         <div className='sign-div'>
-          <p>
-            <span>O</span>
-            <span>P</span>
-            <span>E</span>
-            <span>N</span>
-          </p>
+          <p>OPEN</p>
         </div>
-        <button onClick={() => setIsOpen(false)}>close the zoo</button>
+        <button onClick={() => setIsOpen(false)}>Close the zoo</button>
       </>
     );
   } else {
     return (
       <>
         <div className='sign-div'>
-          <p>
-            <span>C</span>
-            <span>L</span>
-            <span>O</span>
-            <span>S</span>
-            <span>E</span>
-            <span>D</span>
-          </p>
+          <p>CLOSED</p>
         </div>
-        <button onClick={() => setIsOpen(true)}>open the zoo</button>
+        <button onClick={() => setIsOpen(true)}>Open the zoo</button>
       </>
     );
   }

@@ -7,7 +7,7 @@ import { useState } from 'react';
 function App() {
   // State
   const [isOpen, setIsOpen] = useState(false);
-  const [parade, setParade] = useState(['gorilla', 'giraffe', 'lion']);
+  const [parade, setParade] = useState(['gorilla', 'giraffe', 'zebra']);
 
   return (
     <div className="App">
@@ -18,8 +18,8 @@ function App() {
         <Parade parade={parade} setParade={setParade}/>
       </div>
       <div className='zoo-fight'>
-        <AnimalEmoji />
-        <AnimalEmoji />
+        <AnimalEmoji animal={'zebra'}/>
+        <AnimalEmoji animal={'tiger'}/>
       </div>
     </div>
   );

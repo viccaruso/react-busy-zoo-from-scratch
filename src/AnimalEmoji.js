@@ -1,11 +1,15 @@
 import React from 'react';
 import './AnimalEmoji.css';
 
-export default function AnimalEmoji() {
+export default function AnimalEmoji({ animal }) {
   return (
-    <div>
-      Yea
-    </div>
+    <span>
+      { animal === 'gorilla' && '🦍'}
+      { animal === 'zebra' && '🦓'}
+      { animal === 'llama' && '🦙'}
+      { animal === 'tiger' && '🐅'}
+      { animal === 'giraffe' && '🦒'}
+    </span>  
   );
 }
 

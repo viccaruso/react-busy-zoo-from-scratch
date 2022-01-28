@@ -2,15 +2,10 @@
   text-align: center;
 }
 
-.zoo-parade, .zoo-fight {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 33vh;
-}
-
 .zoo-fight {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  height: 33vh;
 }

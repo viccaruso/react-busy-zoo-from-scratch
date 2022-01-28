@@ -1,16 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
 :root {
-  --text-color: #f00;
-  --border-color: #3da7f8;
-  --text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px var(--text-color),
-  0 0 10px var(--text-color), 0 0 10px var(--text-color),
-  0 0 10px var(--text-color), 0 0 10px var(--text-color),
-  0 0 20px var(--text-color), 0 0 30px var(--text-color),
-  0 0 40px var(--text-color), 0 0 55px var(--text-color),
-  0 0 75px var(--text-color);
-  --box-shadow: inset 0 0 50px var(--border-color), 0 0 10px var(--border-color),
-  0 0 20px var(--border-color), 0 0 30px var(--border-color);
+  --sign-text-color: #f00;
+  --sign-border-color: #3da7f8;
+  --sign-text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px var(--sign-text-color),
+  0 0 10px var(--sign-text-color), 0 0 10px var(--sign-text-color),
+  0 0 10px var(--sign-text-color), 0 0 10px var(--sign-text-color),
+  0 0 20px var(--sign-text-color), 0 0 30px var(--sign-text-color),
+  0 0 40px var(--sign-text-color), 0 0 55px var(--sign-text-color),
+  0 0 75px var(--sign-text-color);
+  --sign-box-shadow: inset 0 0 50px var(--sign-border-color), 0 0 10px var(--sign-border-color),
+  0 0 20px var(--sign-border-color), 0 0 30px var(--sign-border-color);
 }
 
 .zoo-open {
@@ -26,8 +26,8 @@
 .sign-div {
   background-color: transparent;
   border: 3px solid white;
-  text-shadow: var(--text-shadow);
-  box-shadow: var(--box-shadow);
+  text-shadow: var(--sign-text-shadow);
+  box-shadow: var(--sign-box-shadow);
   border-radius: 20px;
   padding: 14px 24px;
   transform: rotate(-4deg);
@@ -39,6 +39,6 @@
   font-family: Roboto;
   margin: 0px;
   color: #fff;
-  font-size: 100px;
+  font-size: 5rem;
 }
 

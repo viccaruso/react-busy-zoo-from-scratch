@@ -7,7 +7,7 @@ import { useState } from 'react';
 function App() {
   // State
   const [isOpen, setIsOpen] = useState(false);
-  const [parade, setParade] = useState(['gorilla', 'giraffe', 'zebra']);
+  const [paradeArr, setParade] = useState(['gorilla', 'giraffe', 'zebra']);
 
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
         <OpenSign isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
       <div className='zoo-parade'>
-        <Parade parade={parade} setParade={setParade}/>
+        <Parade paradeArr={paradeArr} setParade={setParade}/>
       </div>
       <div className='zoo-fight'>
         <AnimalEmoji animal={'zebra'}/>

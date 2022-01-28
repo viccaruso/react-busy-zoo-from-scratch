@@ -29,12 +29,12 @@ function App() {
         <div className='left-animal'>
           <AnimalEmoji animal={'zebra'} style={emojiAStyle} />
           <button onClick={() => setEmojiBSize(emojiBSize / 1.25)}>Attack!</button>
-          <button onClick={() => setEmojiASize(emojiASize * 1.25)}>Eat</button>
+          <button onClick={() => setEmojiASize(emojiASize * 1.25)}>Power Up</button>
         </div>
         <div className='right-animal'>
           <AnimalEmoji animal={'tiger'} style={emojiBStyle} />
           <button onClick={() => setEmojiASize(emojiASize / 1.25)}>Attack!</button>
-          <button onClick={() => setEmojiBSize(emojiBSize * 1.25)}>Eat</button>
+          <button onClick={() => setEmojiBSize(emojiBSize * 1.25)}>Power Up</button>
         </div>
       </div>
     </div>

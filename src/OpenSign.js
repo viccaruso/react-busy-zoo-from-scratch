@@ -8,7 +8,7 @@ export default function OpenSign({ isOpen, setIsOpen }) {
         <div className='sign-div'>
           <p>OPEN</p>
         </div>
-        <button onClick={() => setIsOpen(false)}>Close the zoo</button>
+        <button onClick={() => setIsOpen(false)}>Close the Zoo</button>
       </>
     );
   } else {
@@ -17,7 +17,7 @@ export default function OpenSign({ isOpen, setIsOpen }) {
         <div className='sign-div'>
           <p>CLOSED</p>
         </div>
-        <button onClick={() => setIsOpen(true)}>Open the zoo</button>
+        <button onClick={() => setIsOpen(true)}>Open the Zoo</button>
       </>
     );
   }

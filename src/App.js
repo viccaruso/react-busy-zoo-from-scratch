@@ -17,6 +17,8 @@ function App() {
   return (
     <div className="App">
       <div className='zoo-open'>
+        <h1>Welcome!</h1> 
+        <p>The zoo is currently:</p>
         <OpenSign isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
       <div className='zoo-parade'>

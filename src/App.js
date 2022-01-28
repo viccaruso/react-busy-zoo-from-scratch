@@ -8,6 +8,11 @@ function App() {
   // State
   const [isOpen, setIsOpen] = useState(false);
   const [paradeArr, setParade] = useState(['gorilla', 'giraffe', 'zebra']);
+  const [emojiASize, setEmojiASize] = useState(3);
+  const [emojiBSize, setEmojiBSize] = useState(3);
+
+  const emojiAStyle = { fontSize: `${emojiASize}rem` };
+  const emojiBStyle = { fontSize: `${emojiBSize}rem` };
 
   return (
     <div className="App">
@@ -18,8 +23,12 @@ function App() {
         <Parade paradeArr={paradeArr} setParade={setParade}/>
       </div>
       <div className='zoo-fight'>
-        <AnimalEmoji animal={'zebra'}/>
-        <AnimalEmoji animal={'tiger'}/>
+        <AnimalEmoji animal={'zebra'} style={emojiAStyle} />
+        <button onClick={() => setEmojiBSize(emojiBSize / 1.25)}>Attack!</button>
+        <button onClick={() => setEmojiASize(emojiASize * 1.25)}>Eat</button>
+        <AnimalEmoji animal={'tiger'} style={emojiBStyle}/>
+        <button onClick={() => setEmojiASize(emojiASize / 1.25)}>Attack!</button>
+        <button onClick={() => setEmojiBSize(emojiBSize * 1.25)}>Eat</button>
       </div>
     </div>
   );

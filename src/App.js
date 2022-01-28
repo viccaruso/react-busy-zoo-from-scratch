@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import OpenSign from './OpenSign';
+import Parade from './Parade';
+import AnimalEmoji from './AnimalEmoji';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='zoo-open'>
+        <OpenSign />
+      </div>
+      <div className='zoo-parade'>
+        <Parade />
+      </div>
+      <div className='zoo-fight'>
+        <AnimalEmoji />
+        <AnimalEmoji />
+      </div>
     </div>
   );
 }

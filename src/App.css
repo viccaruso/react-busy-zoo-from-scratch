@@ -19,3 +19,6 @@
   align-items: center;
 }
 
+.left-animal span {
+  transform: scaleX(-1);
+}

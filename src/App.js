@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className='zoo-open'>
-        <OpenSign isOpen={isOpen}/>
+        <OpenSign isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
       <div className='zoo-parade'>
         <Parade />
